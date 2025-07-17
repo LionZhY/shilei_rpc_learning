@@ -1,23 +1,19 @@
+
+# Consider dependencies only in project.
+set(CMAKE_DEPENDS_IN_PROJECT_ONLY OFF)
+
 # The set of languages for which implicit dependencies are needed:
 set(CMAKE_DEPENDS_LANGUAGES
-  "CXX"
-  )
-# The set of files for implicit dependencies of each language:
-set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/tony/projects/mprpc/example/friend.pb.cc" "/home/tony/projects/mprpc/build/example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o"
-  "/home/tony/projects/mprpc/example/callee/friendservice.cc" "/home/tony/projects/mprpc/build/example/callee/CMakeFiles/provider.dir/friendservice.cc.o"
-  )
-set(CMAKE_CXX_COMPILER_ID "GNU")
-
-# The include file search paths:
-set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "../src/include"
-  "../example"
   )
 
-# Targets to which this target links.
-set(CMAKE_TARGET_LINKED_INFO_FILES
-  "/home/tony/projects/mprpc/build/src/CMakeFiles/mprpc.dir/DependInfo.cmake"
+# The set of dependency files which are needed:
+set(CMAKE_DEPENDS_DEPENDENCY_FILES
+  "/home/zhangyan/projects/shilei_rpc_learning/example/friend.pb.cc" "example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o" "gcc" "example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o.d"
+  "/home/zhangyan/projects/shilei_rpc_learning/example/callee/friendservice.cc" "example/callee/CMakeFiles/provider.dir/friendservice.cc.o" "gcc" "example/callee/CMakeFiles/provider.dir/friendservice.cc.o.d"
+  )
+
+# Targets to which this target links which contain Fortran sources.
+set(CMAKE_Fortran_TARGET_LINKED_INFO_FILES
   )
 
 # Fortran module output directory.

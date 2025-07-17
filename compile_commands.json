@@ -1,0 +1,74 @@
+[
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/mprpc.dir/mprpcapplication.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/src/mprpcapplication.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/src/mprpcapplication.cc",
+  "output": "src/CMakeFiles/mprpc.dir/mprpcapplication.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/mprpc.dir/mprpcconfig.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/src/mprpcconfig.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/src/mprpcconfig.cc",
+  "output": "src/CMakeFiles/mprpc.dir/mprpcconfig.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/mprpc.dir/rpcheader.pb.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/src/rpcheader.pb.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/src/rpcheader.pb.cc",
+  "output": "src/CMakeFiles/mprpc.dir/rpcheader.pb.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/mprpc.dir/rpcprovider.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/src/rpcprovider.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/src/rpcprovider.cc",
+  "output": "src/CMakeFiles/mprpc.dir/rpcprovider.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/mprpc.dir/mprpcchannel.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/src/mprpcchannel.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/src/mprpcchannel.cc",
+  "output": "src/CMakeFiles/mprpc.dir/mprpcchannel.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/mprpc.dir/mprpccontroller.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/src/mprpccontroller.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/src/mprpccontroller.cc",
+  "output": "src/CMakeFiles/mprpc.dir/mprpccontroller.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/mprpc.dir/logger.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/src/logger.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/src/logger.cc",
+  "output": "src/CMakeFiles/mprpc.dir/logger.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/src",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/mprpc.dir/zookeeperutil.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/src/zookeeperutil.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/src/zookeeperutil.cc",
+  "output": "src/CMakeFiles/mprpc.dir/zookeeperutil.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/example/callee",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/provider.dir/friendservice.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/example/callee/friendservice.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/example/callee/friendservice.cc",
+  "output": "example/callee/CMakeFiles/provider.dir/friendservice.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/example/callee",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/provider.dir/__/friend.pb.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/example/friend.pb.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/example/friend.pb.cc",
+  "output": "example/callee/CMakeFiles/provider.dir/__/friend.pb.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/example/caller",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/consumer.dir/callfriendservice.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/example/caller/callfriendservice.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/example/caller/callfriendservice.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/callfriendservice.cc.o"
+},
+{
+  "directory": "/home/zhangyan/projects/shilei_rpc_learning/build/example/caller",
+  "command": "/usr/bin/c++  -I/home/zhangyan/projects/shilei_rpc_learning/src/include -I/home/zhangyan/projects/shilei_rpc_learning/example -g -o CMakeFiles/consumer.dir/__/friend.pb.cc.o -c /home/zhangyan/projects/shilei_rpc_learning/example/friend.pb.cc",
+  "file": "/home/zhangyan/projects/shilei_rpc_learning/example/friend.pb.cc",
+  "output": "example/caller/CMakeFiles/consumer.dir/__/friend.pb.cc.o"
+}
+]

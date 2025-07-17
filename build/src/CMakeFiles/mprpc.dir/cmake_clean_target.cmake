@@ -1,3 +1,3 @@
 file(REMOVE_RECURSE
-  "../../lib/libmprpc.a"
+  "/home/zhangyan/projects/shilei_rpc_learning/lib/libmprpc.a"
 )
