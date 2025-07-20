@@ -9,6 +9,9 @@
 
 /* 实现了一个基于 mprpc 框架的简单好友列表RPC服务 */
 
+// 实现并注册服务，响应客户端调用。
+// 类似客服那边真正处理你的请求，查出好友列表告诉你。
+
 
 
 // FriendService 类，提供用户好友列表查询接口，返回固定的好友名字集合
@@ -56,12 +59,13 @@ int main(int argc, char **argv)
     // 调用框架的初始化操作
     MprpcApplication::Init(argc, argv);
 
-    // provider是一个rpc网络服务对象。把UserService对象发布到rpc节点上
+    // provider是一个rpc网络服务对象。把FriendService对象发布到rpc节点上
     RpcProvider provider;
     provider.NotifyService(new FriendService());
 
     // 启动一个rpc服务发布节点   Run以后，进程进入阻塞状态，等待远程的rpc调用请求
     provider.Run();
+
 
     return 0;
 }

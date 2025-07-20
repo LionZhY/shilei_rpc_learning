@@ -5,6 +5,9 @@
 
 /* 实现了一个基于 mprpc 框架的RPC客户端示例，演示如何调用远程的 GetFriendsList 方法并处理响应。 */
 
+// 通过 FriendServiceRpc_Stub 远程调用 GetFriendsList，拿到好友列表。
+// 类似你打电话给客服：“帮我查一下好友列表。”
+
 
 
 int main(int argc, char **argv)
@@ -12,16 +15,13 @@ int main(int argc, char **argv)
     // 整个程序启动以后，想使用mprpc框架来享受rpc服务调用，一定需要先调用框架的初始化函数（只初始化一次）
     MprpcApplication::Init(argc, argv);
 
-    // 演示调用远程发布的rpc方法Login
     fixbug::FiendServiceRpc_Stub stub(new MprpcChannel());
 
-    // rpc方法的请求参数
-    fixbug::GetFriendsListRequest request;
-
+    
+    // 演示调用远程发布的rpc方法 GetFriendsList --------------------------------------------------------------
+    fixbug::GetFriendsListRequest request; // rpc方法的请求参数
     request.set_userid(1000);
-
-    // rpc方法的响应
-    fixbug::GetFriendsListResponse response;
+    fixbug::GetFriendsListResponse response; // rpc方法的响应
 
 
     // 发起rpc方法的调用  同步的rpc调用过程  MprpcChannel::callmethod
@@ -51,5 +51,6 @@ int main(int argc, char **argv)
         }
     }
 
+    
     return 0;
 }
