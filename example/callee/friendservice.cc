@@ -6,9 +6,16 @@
 #include <vector>
 #include "logger.h"
 
+
+/* 实现了一个基于 mprpc 框架的简单好友列表RPC服务 */
+
+
+
+// FriendService 类，提供用户好友列表查询接口，返回固定的好友名字集合
 class FriendService : public fixbug::FiendServiceRpc
 {
 public:
+
     std::vector<std::string> GetFriendsList(uint32_t userid)
     {
         std::cout << "do GetFriendsList service! userid:" << userid << std::endl;
@@ -37,6 +44,9 @@ public:
         done->Run();
     }
 };
+
+
+
 
 int main(int argc, char **argv)
 {

@@ -2,6 +2,11 @@ syntax = "proto3";
 
 package mprpc;
 
+// 定义 RPC 框架中用于网络传输的消息格式
+// RpcHeader 是 RPC 通信中的“协议头”，告诉服务端“我要调用哪个服务、哪个方法、参数多大”，
+// 由 Protobuf 定义并序列化，用于网络传输
+
+
 message RpcHeader
 {
     bytes service_name = 1;

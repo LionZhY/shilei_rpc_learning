@@ -41,6 +41,7 @@ void MprpcConfig::LoadConfigFile(const char *config_file)
         std::string value;
         key = read_buf.substr(0, idx);
         Trim(key);
+
         // rpcserverip=127.0.0.1\n
         int endidx = read_buf.find('\n', idx);
         value = read_buf.substr(idx+1, endidx-idx-1);
@@ -50,6 +51,8 @@ void MprpcConfig::LoadConfigFile(const char *config_file)
 
     fclose(pf);
 }
+
+
 
 // 查询配置项信息
 std::string MprpcConfig::Load(const std::string &key)
@@ -61,6 +64,8 @@ std::string MprpcConfig::Load(const std::string &key)
     }
     return it->second;
 }
+
+
 
 // 去掉字符串前后的空格
 void MprpcConfig::Trim(std::string &src_buf)

@@ -7,6 +7,9 @@
 /*
 UserService原来是一个本地服务，提供了两个进程内的本地方法，Login和GetFriendLists
 */
+
+// 基于 mprpc 框架实现一个简单的用户登录注册RPC服务
+
 class UserService : public fixbug::UserServiceRpc // 使用在rpc服务发布端（rpc服务提供者）
 {
 public:
@@ -69,6 +72,9 @@ public:
         done->Run();
     }
 };
+
+
+
 
 int main(int argc, char **argv)
 {

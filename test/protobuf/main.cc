@@ -3,6 +3,8 @@
 #include <string>
 using namespace fixbug;
 
+// 纯 proto 例子
+
 int main()
 {
     // LoginResponse rsp;

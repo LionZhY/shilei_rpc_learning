@@ -2,6 +2,7 @@
 #include "lockqueue.h"
 #include <string>
 
+
 // 定义宏 LOG_INFO("xxx %d %s", 20, "xxxx")
 #define LOG_INFO(logmsgformat, ...) \
     do \
@@ -23,6 +24,7 @@
         logger.Log(c); \
     } while(0) \
 
+
 // 定义日志级别
 enum LogLevel
 {
@@ -30,16 +32,16 @@ enum LogLevel
     ERROR, // 错误信息
 };
 
+
 // Mprpc框架提供的日志系统
 class Logger
 {
 public:
-    // 获取日志的单例
-    static Logger& GetInstance();
-    // 设置日志级别 
-    void SetLogLevel(LogLevel level);
-    // 写日志
-    void Log(std::string msg);
+    
+    static Logger& GetInstance(); // 获取日志的单例 
+    void SetLogLevel(LogLevel level); // 设置日志级别 
+    void Log(std::string msg); // 写日志
+
 private:
     int m_loglevel; // 记录日志级别
     LockQueue<std::string>  m_lckQue; // 日志缓冲队列
